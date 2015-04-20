@@ -4,7 +4,7 @@ from utils import *
 from stream import *
 from PIL import Image
 import struct
-import StringIO
+import cStringIO as StringIO
 
 class TagFactory(object):
     @classmethod

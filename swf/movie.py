@@ -4,7 +4,7 @@ SWF
 from tag import SWFTimelineContainer
 from stream import SWFStream
 from export import SVGExporter
-import StringIO
+import cStringIO as StringIO
 
 class SWFHeaderException(Exception):
     """ Exception raised in case of an invalid SWFHeader """

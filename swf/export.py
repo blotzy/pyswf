@@ -11,7 +11,7 @@ from lxml import objectify
 from lxml import etree
 import base64
 from PIL import Image
-from StringIO import StringIO
+from cStringIO import StringIO
 import math
 import re
 import copy
